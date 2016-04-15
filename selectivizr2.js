@@ -548,4 +548,9 @@
 			addEvent(win,"load", init);
 		}
 	}
-})(this);
+	
+	module.exports = {
+		init: init
+	}
+
+})(window);
