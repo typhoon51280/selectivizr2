@@ -548,9 +548,8 @@
 			addEvent(win,"load", init);
 		}
 	}
-	
-	module.exports = {
-		init: init
-	}
+
+	win.Selectivizr = init;
+	module.exports = init;
 
 })(window);
